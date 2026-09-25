@@ -1,0 +1,229 @@
+<html lang="uk">
+<head>
+    <tittle>GameStore</tittle>
+</head>
+
+<header>
+    <div class="box blink">
+    <h1 class="eshka">Velesvit</h1>
+    </div>
+    <a href="https://store.steampowered.com/explore/new/?l=ukrainian" class="novi">Новинки</a>
+    <div id="disqus_thread"></div>
+</header>
+<hero>
+    <section class="stalkertwo">
+        <div class="hero-block">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/fFZQ821kSF8?si=cyV5DuP4JLxkPgXp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h1>S.T.A.L.K.E.R. 2: Серце Чорнобиля</h1>
+            <p>Досліджуйте безмежну Зону Відчуження, повну небезпечних ворогів, смертоноснрих аномалій та могутніх артефактів. Напишіть власну історію в серці Чорнобиля.</p>
+            <h2 class="piashka">Купуйте за 1 399₴</h2>
+        </div>
+    </section>
+</hero>
+
+<style>
+    body {
+    background-color: black;
+}
+
+.hero-block {
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 90vh;
+    color: white;
+    padding: 5px;
+}
+
+.piashka {
+    color: #81ff00;
+}
+
+.vses {
+    color: white;
+    text-align: center;
+}
+
+.stalkertwo {
+    text-align: center;
+}
+
+.boy-btn {
+    background-image: url(ss_9cdf861c8ac2d7fa7e1f2a88673032bc3a6c6114.1920x1080-780x439.jpg);
+    padding: 20px;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.roll-btn {
+    background-image: url(heеееееаааader.jpg);
+    padding: 20px;
+    background-position: top;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.stra-btn {
+    background-image: url(2704493-2867926398-98e52.jpg);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.go-btn {
+    background-image: url(images 333.jfif);
+    background-position: left;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.horror-btn {
+    background-image: url(0-1-780x439.jpg);
+    padding: 20px;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.warfake-btn {
+    background-image: url(news_Linx_com.jpg);
+    padding: 20px;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.dotafake-btn {
+    background-image: url(dota2_social.jpg);
+    padding: 30px;
+    background-position: top;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.pubgfake-btn {
+    background-image: url(heеееееаааader.jpg);
+    padding: 20px;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    color: white;
+}
+
+.forzaaa-btn {
+    background-image: url(Forza-Horizon-6-white-hero-desktop-01-en-17mar26.webp);
+    padding: 20px;
+    background-position: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.popular {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.wow {
+    margin-bottom: 50px;
+}
+
+.my {
+    margin-bottom: 50px;
+}
+
+footer {
+    padding: 30px;
+    background-color: #404040;
+    color: white;
+    text-align: left;
+}
+
+.theend {
+    margin-top: 100px;
+}
+
+.eshka {
+   font-family: 'Trebuchet MS', Arial, sans-serif;
+   text-align: left;
+}
+
+.novi {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: white;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+:hover.novi {
+    background-color: blue;
+}
+
+@keyframes blink {
+    0% {opacity: 1; }
+    50% {opacity: 0; }
+    100% {opacity: 1;}
+}
+.blink { animation: blink 1s infinite; }
+</style>
+
+<nav> 
+    <section class="vses">
+        <h1>Категорії і жанри</h1>
+        <p class="my">Шукайте ігри за улюбленим геймплейсом та всесвітами</p>
+        <a href="https://store.steampowered.com/tags/uk/%D0%91%D0%B8%D1%82%D0%B2%D0%B0/" class="boy-btn">🗡️Екшн/Бойовики</a>
+        <a href="https://store.steampowered.com/category/rpg" class="roll-btn">🛡️Рольві (RPG)</a>
+        <a href="https://store.steampowered.com/category/strategy" class="stra-btn">🧭Стратегії</a>
+        <a href="https://store.steampowered.com/category/horror" class="horror-btn">👁️Хорори</a>
+    </section>
+</nav>   
+
+<main>
+    <section class="popular">
+        <h1 class="wow">Популярні зараз</h1>
+        <a href="#" class="warfake-btn">War Thunder</a>
+        <a href="#" class="dotafake-btn">Dota 2</a>
+        <a href="#" class="pubgfake-btn">PUBG: BATTLEGROUNDS</a>
+        <a href="#" class="forzaaa-btn">Forza Horizon 6</a>
+    </section>
+</main>
+
+<footer>
+    <p>Ваш надійний ліцензований дистриб'ютор цифрових версій відеоігор в Україні. Великі пригоди починаються з нашого надійного сховища.</p>
+    <p class="theend">© 2026 GameVault. Усі права захищено. Усі торгівельні марки належать відповідним власникам.</p>
+</footer>
